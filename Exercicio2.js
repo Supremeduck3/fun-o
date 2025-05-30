@@ -1,9 +1,11 @@
 function ehpar(a){
     if(a % 2 == 0){
-        console.log("Verdadeiro")
+        console.log(true)
     }else{
-        console.log("Falso")
+        console.log(false)
     }
+    result = a
+    return result
 }
 
 ehpar(0)
