@@ -4,14 +4,13 @@ function inverteString(str){
    for (let i = resultado.length -1; i >= 0; i--){
     palavrfa += resultado[i];
    }
-   if (palavrfa[0] === resultado[0]){
+   if (palavrfa === resultado){
     console.log(true);
    }else{
     console.log(false);
    }
-   console.log(resultado)
    }
 
-   inverteString("A sacada da casa");
+   inverteString("Arara");
    
 
